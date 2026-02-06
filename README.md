@@ -45,11 +45,9 @@ The system aggregates round outcomes and prints a **final winner (User / Bot / D
 
 * Confidence scores for intent interpretation
 * Structured error codes for invalid and unclear moves
-* Automated adversarial testing of edge cases
-* Migration to the newer Gemini SDK
 * Multi-agent separation for intent parsing and rule enforcement
 
 ---
 
-This design demonstrates **prompt-as-policy**, with the LLM acting as a transparent decision-maker while the glue code enforces state safety and invariants.
+This design demonstrates an LLM acting as a transparent decision-maker while the glue code enforces state safety and invariants.
 
